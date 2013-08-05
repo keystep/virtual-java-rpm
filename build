@@ -1,0 +1,6 @@
+#!/bin/bash -ue
+
+which make || { echo 'make not in path - yum install make'; exit 1; }
+which rpmbuild || { echo 'rpmbuild not in path - yum install rpmdevtools'; exit 1; }
+
+make
