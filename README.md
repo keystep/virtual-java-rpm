@@ -25,3 +25,8 @@ Example:
     virtual-java-1.7-1.noarch.rpm
 
 Add this package to your local repo. Your applications (in my case _[tomcat](https://github.com/keystep/apache-tomcat-rpm)_) can now depend on 'java' and be satisfied with the (already) installed jdk without forcing an install of the default openjdk.
+
+Todo
+----
+
+Should this package be called _virtual-jdk_ rather than _virtual-java_?
