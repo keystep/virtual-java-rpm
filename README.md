@@ -19,6 +19,7 @@ Building
     ./build
 
 This should produce and RPM that can be found in _dist/_
+
 Example:
 
     virtual-java-1.7-1.noarch.rpm
