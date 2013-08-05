@@ -18,8 +18,10 @@ Building
     cd virtual-java-rpm && \
     ./build
 
-This should produce and RPM that can be found in _dist/_
+This should produce an RPM that can be found in _dist/_
 
 Example:
 
     virtual-java-1.7-1.noarch.rpm
+
+Add this package to your local repo. Your applications (in my case _[tomcat](https://github.com/keystep/apache-tomcat-rpm)_) can now depend on 'java' and be satisfied with the (already) installed jdk without forcing an install of the default openjdk.
