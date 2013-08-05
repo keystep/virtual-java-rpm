@@ -9,6 +9,7 @@ This package does that + requires 'jdk' in order to work around this bug - nothi
 Requirements
 ------------
 In order to build this package you need _make_ and _rpmdevtools_ (rpmbuild):
+
     yum install -y make rpmdevtools
 
 Building
