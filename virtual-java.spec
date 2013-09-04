@@ -18,6 +18,10 @@ Virtual package which provides java but uses the Sun/Oracle JDK
 %pre
 
 %post
+/usr/sbin/alternatives --install /usr/bin/java java /usr/java/default/bin/java 20000
+
+%postun
+/usr/sbin/alternatives --remove java /usr/java/default/bin/java
 
 %install
 
