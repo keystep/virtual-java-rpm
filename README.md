@@ -32,4 +32,4 @@ Todo
 ----
 
 * Should this package be called _virtual-jdk_ rather than _virtual-java_?
-* Add a fix for _update-alternatives_ ?
+* ~~Add a fix for _update-alternatives_ ?~~
