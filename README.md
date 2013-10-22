@@ -6,7 +6,7 @@ Virtual package 'overlay' for Oracle JDK
 The official JDK package does not provide 'java' ( _Provides: java_ ).
 This package does just that + requires 'jdk' in order to work around this bug - nothing else.
 
-The official package does install _/usr/bin/java_ (as a symlink), but does not add an _alternative_ which means it cannot properly coexist with other installations. This is not remedied here.
+The official package does install _/usr/bin/java_ (as a symlink), but does not add an _alternative_ which means it cannot properly coexist with other installations. This is also remedied here.
 
 Requirements
 ------------
